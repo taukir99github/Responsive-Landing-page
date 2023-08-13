@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
+nav{
+  height: 60px;
+  width: 100%;
+  /* background-color: lightseagreen; */
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw;
+  border-bottom: 2px solid #dadada;
+
+}
+nav h2{
+  font-size: 2vw;
+  font-weight: 500;
+  padding: 5vw;
+}
+.nav-list{
+  display: flex;
+  gap: 4vw;
+  align-items: center;
+  padding: 10px;
+}
+.nav-list p{
+  font-size: 2vw;
+  display: none;
+}
+.nav-list h4{
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+.nav-list button{
+  padding: 0.7vw 1vw;
+  background-color: lightseagreen;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content{
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.content-left{
+  width: 55%;
+  padding: 10vw 5vw;
+}
+.content-left span{
+  color: lightseagreen;
+}
+.content-left h2{
+  font-size: 4vw;
+  line-height: 4.4vw;
+}
+.content-left p{
+  font-size: 1.8vw;
+  width: 80%;
+  margin-top: 2vh;
+  font-weight: 500;
+}
+.content-left button{
+  font-size: 2vw;
+    margin-top: 2vw;
+    padding: 1.2vw 2vw;
+    background-color: lightseagreen;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.content-right{
+  width: 45%;
+}
+.content-right img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+  nav h2{
+    font-size: 6vw;
+    padding: 0 5vw;
+
+  }
+  .nav-list h4{
+    font-size: 4vw;
+    display: none;
+  }
+  .nav-list button{
+    display: none;
+  }
+  .nav-list p{
+    display: block;
+    font-size: 4vw;
+    font-weight: 800;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .content-left{
+    width: 100%;
+    padding: 4vw 6vw;
+  }
+  .content-left h2{
+    font-size: 8vw;
+    line-height: 10vw;
+  }
+  .content-left p{
+    font-size: 4vw;
+  }
+  .content-left button{
+    margin-top: 3vh;
+    height: auto;
+    padding: 3vw 5vw;
+    font-size: 4vw;
+  }
+  .content-right{
+    width: 100%;
+  }
+  
+}

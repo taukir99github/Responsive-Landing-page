@@ -20,7 +20,7 @@ function App() {
       <div className="content">
       <div className="content-left">
        <h2> Hello Learn <span>Coding</span> from me</h2>
-       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo ratione doloribus odit fugit vero consectetur tempora laudantium omnis? Ab, consectetur.</p>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo  doloribus odit fugit vero consectetur tempora laudantium omnis? Ab, consectetur.</p>
        <button>Explore Now</button>
       </div>
       <div className="content-right">
